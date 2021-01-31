@@ -1,0 +1,48 @@
+/**
+ * Author:         Team Web-Triton
+ * Author URI:     https://web-triton.com
+ * Tested up to:   5.6
+ * Version:        1.0
+ * License:        
+ * License URI:    
+*/
+.admin-telephonist-form {
+	max-width: 500px;
+	width: 100%;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #333;
+}
+.admin-telephonist-form label, .admin-telephonist-form input, .admin-telephonist-form select {
+	width: 100%;
+	margin: 10px 0;
+}
+.admin-telephonist-item input[type=submit] {
+	width: 100px;
+	color:#fff;
+	background-color: #03A9F4;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 5px 0px;
+	transition: background .2s linear;
+}
+
+.admin-telephonist-item input[type=submit]:hover {
+	background-color: #026E9F;
+}
+
+.admin-telephonist-form input[type=tel] {
+	border: none;
+	border-radius: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.admin-telephonist-form p {
+	display: flex;
+	align-items: center;
+
+	border-bottom: 1px solid #333;
+	padding: 0;
+}

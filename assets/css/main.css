@@ -1,0 +1,38 @@
+/**
+ * Author:         Team Web-Triton
+ * Author URI:     https://web-triton.com
+ * Tested up to:   5.6
+ * Version:        2.0
+ * License:        
+ * License URI:    
+*/
+.telephonist {
+	width:100% !important;
+	position:relative;
+	z-index:9999;
+}
+
+.phone-call {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 32px;
+
+	width:60px;
+	height:60px;
+
+	border-radius:50%;
+	position:fixed;
+	bottom: 20px;
+
+	animation:phonecallrotation 5s linear infinite;
+}
+
+@keyframes phonecallrotation {
+	0%   {transform:rotate(0deg);}
+	25%  {transform:rotate(10deg);}
+	50%  {transform:rotate(0deg);}
+	75%  {transform:rotate(-10deg);}
+	100% {transform:rotate(0deg);}
+}
